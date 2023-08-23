@@ -1,3 +1,73 @@
+---
 # ESO Rules for Wantagh-Levittown VAC
 
 # This file contains the rules for Wantagh-Levittown VAC's EHR Rules for ESO. I will be using it to track the rules changes I make via git and contain a rule set that can be shared with other NYS agencies.
+
+Incident Tab:
+    Configurable Fields:
+        Alabama Stroke System Entry: Off
+        Alternative Disposition Offered: Off
+        Arrival at Landing Area Date/Time: Off
+        CAD Call Nature: Off
+        Critical Incident: On
+        Critical Incident Circumstances: On
+        Critical Incident Team Mobilized: On
+        Department: On
+        Destination Country: Off
+        Destination GPS Location: Off
+        Disaster Tag: On
+        Dispatch Notified Date/Time: On
+        Dispatch Priority: Off
+        EMD Card Number: Off
+        EMD Complaint: On
+        EMD Performed: On
+        Emergency Department Disposition: Off
+        Estimated Date/Time Initial Responder Arrived on Scene: Off
+        First EMS Unit on Scene: Off
+        Georgia BLS Transport Authorized by COVID-19 Emergency Rule: Off
+        Hospital Designation: On
+        Hospital Disposition: Off
+        In District (Unit Back at Home) Date/Time: On
+        Incident Mileage - End Mileage: Off
+        Incident Mileage - Start Mileage: Off
+        Initial Responder Arrived on Scene Date/Time: Off
+        Intersection Navigation: Off
+        Level of Service: Off
+        Lights & Sirens Use: On
+        Location Type Detail: Off
+        Michigan Medical Control Authority (MCA): Off
+        Personal Protective Equipment Used: On
+        Personnel Exposed: On
+        PSAP Call Date/Time: On
+        Required Reportable Conditions: On
+        Responding From: Off
+        Response Mode Speed: Off
+        Scene - Census Tract: Off
+        Scene - Country: Off
+        Scene - Cross Street or Directions: On
+        Scene - Mile Post: Off
+        Scene GPS Location: Off
+        Scene National Grid Location: Off
+        Scheduled Response: Off
+        Staged Date/Time: Off
+        Standby Reason: On
+        State Tracking Number: Off
+        State Wristband Number: Off
+        STEMI Registry: Off
+        Stroke Registry: Off
+        Suspected Intentional, or Unintentional Disaster: Off
+        Transfer of EMS Care (Prior to Transport) Date/Time: On
+        Transfer of Patient Care Date/Time: On
+        Transport Method: On
+        Transport Mode: On
+        Transport Mode Intersection Navigation: Off
+        Transport Mode Lights & Sirens Use: On
+        Transport Mode Speed: Off
+        Trauma Registry: Off
+        Triage Classification: Off
+        Type of Suspected Blood/Body Fluid Exposure, Injury, or Death: Off
+        Unit Capability: Off
+        Unit's Level of Care: On
+
+---
+
