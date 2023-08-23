@@ -5,7 +5,7 @@
 # ESO. I will be using it to track the rules changes I make via git and
 # contain a rule set that can be shared with other NYS agencies.
 
-Patient Tab:
+Vitals Tab:
     Configurable Fields:
         Pulse Rate Method: On
     Configurable Lists:
