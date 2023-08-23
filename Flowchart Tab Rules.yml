@@ -1,0 +1,556 @@
+---
+# ESO Rules for Wantagh-Levittown VAC
+
+# This file contains the rules for Wantagh-Levittown VAC's EHR Rules for
+# ESO. I will be using it to track the rules changes I make via git and
+# contain a rule set that can be shared with other NYS agencies.
+
+Flowchart Tab:
+    Configurable Fields:
+        Controlled Substance - Controlled Substance Box Number: On
+        Controlled Substance - Controlled Substance ID: Off
+        Controlled Substance - Seal ID After Use: On
+        Controlled Substance - Seal ID Before Use: On
+        Controlled Substance - Waste Envelope Seal ID: Off
+        Medication Authorization Signature: Off
+
+    Configurable Validation:
+        Aspirin Required for STEMI and Chest Pain Impressions: Off
+        Cardiac Alert Required: On
+        Controlled Substance Related Fields Required: On
+        CPAP/BiPAP/VPAP Flow Rate Required: On
+        Flow Chart Complication: On
+        Flow Chart Contact Type Required: Off
+        Flow Chart Date/Time > At Patient Date/Time: On
+        Flow Chart Medical Control: On
+        Flow Chart Patient Response: On
+        Flow Chart Physician: On
+        Flow Chart Require Airway Complications: On
+        Infectious Patient Alert Required: Off
+        Medication Authorization Signature Required: Off
+        Sepsis Alert Required: Off
+        STEMI Alert Required: On
+        STEMI Alert Required for 12-Leads: Off
+        Stroke Alert Required: On
+        Trauma Alert Required: On
+
+    Airway:
+        Back Blows: On
+        BiPAP/VPAP: Off
+        Chest Thrusts: Off
+        Combitube: Off
+        CPAP: On
+        Cricoid Pressure: Off
+        Delayed Sequence Intubation (DSI): Off
+        EasyTube Airway: Off
+        Endotracheal Tube Monitoring: On
+        ETCO2 Digital Capnography: Off
+        ETCO2 Monitoring: On
+        ETI Verification: On
+        Flutter Valve: Off
+        Heimlich Maneuver: On
+        High Flow Nasal Cannula: Off
+        iGEL: On
+        King Airway: On
+        Laryngeal Mask Airway: Off
+        Magill Forcep: On
+        Manual Airway: On
+        Nasogastric Tube: On
+        Nasotracheal Intubation: Off
+        Needle Cricothyroidotomy: On
+        NPA: On
+        OPA: On
+        Orogastric Tube: On
+        Orotracheal Intubation: On
+        Oxygen: On
+        PEEP: On
+        Pertrach: Off
+        Pleural Decompression: On
+        QuickTrach (Adult): Off
+        QuickTrach (Child): Off
+        Rapid Sequence Intubation (RSI): Off
+        Retrograde Intubation: Off
+        SALT Airway: Off
+        Sedation Assist Intubation(SAI): On
+        Simple Thoracostomy: Off
+        Suction: On
+        Surgical Cricothyroidotomy: On
+        Tracheostomy Care: Off
+        Tracheostomy Tube Replacement: Off
+        Ventilator: Off
+        Ventilator Care/Adjustment: On
+        Video Laryngoscopy: Off
+
+    Critical Care:
+        ALS Assessment: Off
+        Arterial Line Care: Off
+        Balloon Pump Care: Off
+        Cardiac Markers: On
+        Chest Tube: Off
+        ECMO: Off
+        Foley Catheter: Off
+        Lab Values: On
+        Pericardiocentesis: Off
+        REBOA: Off
+        Ventricular Assist Device Care: On
+
+    Defibrillation/Cardioversion/Pacing:
+        AED Defibrillation: On
+        AICD/Pacer Deactivation Magnet: Off
+        Cardioversion: On
+        CCR: Off
+        CPR: On
+        CPR Discontinued: On
+        Dual Sequence Defibrillation (DSD): Off
+        Head/Torso Up CPR: Off
+        Manual Defibrillation: On
+        Mechanical CPR: On
+        Pacing: On
+        Pacing Discontinued: On
+        ResqGuard: Off
+        ResQPOD: Off
+        ResQPUMP: Off
+        Vagal Maneuvers: On
+
+    Medications:
+        Acetaminophen: On
+        Activated Charcoal: Off
+        Adenosine: On
+        Afrin: Off
+        Aggrastat: Off
+        Albumin: Off
+        Albuterol: On
+        Alcaine: Off
+        Alcohol Wipes/Pads: On
+        Alprazolam: Off
+        Alprostadil: Off
+        ALPS 1A: Off
+        ALPS 1B: Off
+        ALPS 2: Off
+        Alteplase: Off
+        Alupent: Off
+        Amidate: Off
+        Aminophylline: Off
+        Amiodarone: On
+        Amiodarone Infusion: On
+        Amitriptyline: Off
+        Ammonia Inhalant: Off
+        Amoxapine: Off
+        Ampicillin: Off
+        Amyl Nitrite: Off
+        Ancef: Off
+        Andexanet Alfa: Off
+        Anectine: Off
+        Anusol: Off
+        Anzemet: Off
+        Apresoline: Off
+        Artificial Tears: Off
+        Ascorbic Acid: Off
+        Aspirin: On
+        Atenolol: Off
+        Ativan: Off
+        Atorvastatin: Off
+        Atropine: On
+        Atrovent: Off
+        Benadryl: On
+        Benzocaine: Off
+        Bivalirudin: Off
+        Blood: Off
+        Blood Product: Off
+        Bretylium: Off
+        Brilinta: Off
+        Bumex: Off
+        Buprenorphine: Off
+        Butrans: Off
+        Caffeine: Off
+        Calcium: Off
+        Calcium Carbonate: Off
+        Calcium Chloride: On
+        Calcium Gluconate: Off
+        Cangrelor: Off
+        Captopril: Off
+        Carafate: Off
+        Cardene: Off
+        Cardizem: Off
+        Cardizem Infusion: Off
+        Cefazolin: Off
+        Cefepime: Off
+        Cefotan: Off
+        Cefotaxime: Off
+        Cetacaine: Off
+        Cetirizine: Off
+        Cimetidine: Off
+        Cipro: Off
+        Cisapride: Off
+        Clevidipine: Off
+        Clindamycin: Off
+        Clonidine: Off
+        Codeine: Off
+        Combivent: On
+        Compazine: Off
+        Cryoprecipitate: Off
+        Curosurf: Off
+        Cyanide Antidote: Off
+        Darvocet: Off
+        Decadron: Off
+        Demerol: Off
+        Dexamethasone: On
+        Dexmedetomidine: Off
+        Dextrose 10%: On
+        Dextrose 25%: Off
+        Dextrose 5%: On
+        Dextrose 50%: On
+        Diastat: Off
+        Diazepam: Off
+        Digoxin: Off
+        Dilantin: Off
+        Dilaudid: Off
+        Diltiazem: On
+        Diltiazem Infusion: On
+        Dimercaprol: Off
+        Diphenhydramine: On
+        Diprivan: Off
+        Diprivan Infusion: Off
+        Dobutamine: Off
+        Dopamine: Off
+        Doxepin: Off
+        Doxycycline: Off
+        Droperidol: Off
+        Duodote: Off
+        Duoneb: Off
+        Eliquis: Off
+        Enalapril: Off
+        Enalaprilat: Off
+        Epi 1:100000: Off
+        Epi Pen: On
+        Epi Pen Jr: On
+        Epinephrine 0.01 mg/mL: On
+        Epinephrine 0.1 mg/mL: On
+        Epinephrine 1 mg/mL: On
+        Epinephrine 1:1: Off
+        Epinephrine 1:10: Off
+        Epinephrine Infusion: On
+        Eptifibatide: Off
+        Ertapenem: Off
+        Erythromycin Eye Ointment: Off
+        Esmolol: Off
+        Esomeprazole: Off
+        Etomidate: On
+        Factor 9: Off
+        Famotidine: Off
+        Fenoldopam: Off
+        Fenoldopam Infusion: Off
+        Fentanyl: On
+        Fentanyl Infusion: Off
+        Fexofenadine: Off
+        Finasteride: Off
+        Florastor: Off
+        Fluoxetine: Off
+        Fluticasone: Off
+        Fluvirin: Off
+        Fosphenytoin: Off
+        Fresh Frozen Plasma (FFP): Off
+        Furosemide: Off
+        Generic: Off
+        Gentamicin: Off
+        Geodon: Off
+        Glucagon: On
+        Glucose Tablets: On
+        Haloperidol: On
+        Heparin Bolus: Off
+        Heparin Infusion: Off
+        Hepatitis B Vaccine: Off
+        Hetastarch: Off
+        Hydralazine: Off
+        Hydrocodone: Off
+        Hydrocodone/APAP: Off
+        Hydrocortisone 1.0%: Off
+        Hydrocortisone Sodium: Off
+        Hydromorphone: Off
+        Hydroxocobalamin: Off
+        Ibuprofen: On
+        Imipramine: Off
+        Imodium: Off
+        Inapsine: Off
+        Insulin: Off
+        Insulin Drip: Off
+        Integrilin: Off
+        Intralipid: Off
+        Ipecac Syrup: Off
+        Ipratropium: On
+        Isoetharine: Off
+        Isuprel: Off
+        Januvia: Off
+        K-Lyte: Off
+        Kcentra: Off
+        Ketamine: Off
+        Ketorolac: On
+        Labetalol: Off
+        Labetalol Infusion: Off
+        Lactulose: Off
+        Lasix: Off
+        Levalbuterol: Off
+        Levaquin: Off
+        Levetiracetam (Keppra): Off
+        Levophed: Off
+        Librium: Off
+        Lidocaine: Off
+        Lidocaine 2%: On
+        Lidocaine Infusion: Off
+        Lipitor: Off
+        Lisinopril: Off
+        Loperamide: Off
+        Lopressor: Off
+        Lorazepam: Off
+        Lorazepam Infusion: Off
+        Lovenox: Off
+        Lutein: Off
+        Maalox II: Off
+        Magnesium Sulfate: On
+        Magnesium Sulfate Infusion: On
+        Mannitol: Off
+        Mannitol Infusion: Off
+        Mark I kit: Off
+        Mefoxin: Off
+        Methylene Blue: Off
+        Methylprednisolone: Off
+        Methylprednisolone Infusion: Off
+        Metoclopramide: Off
+        Metoprolol: On
+        Metronidazole: Off
+        Midazolam: On
+        Midazolam Infusion: Off
+        Milrinone: Off
+        Mivacron: Off
+        Morphine: On
+        Muro: Off
+        Mylanta: Off
+        N-Acetylcysteine: Off
+        Naloxone: On
+        Narcan: Off
+        Natrecor: Off
+        Natrecor Infusion: Off
+        Neosporin: Off
+        Neosynephrine: Off
+        Never Frozen Plasma (Liquid Plasma): Off
+        Niacin: Off
+        Nicardipine: Off
+        Nimbex: Off
+        Nitro Infusion: Off
+        Nitro Paste: Off
+        Nitro Spray: Off
+        Nitroglycerin: On
+        Nitronox: Off
+        Nitroprusside: Off
+        Nitrostat: Off
+        Nitrous Oxide: Off
+        Norcuron: Off
+        Norepinephrine: On
+        Normosol-R: Off
+        Nortriptyline: Off
+        Nubain: Off
+        Octreotide: Off
+        Ofirmev: Off
+        Olanzapine: Off
+        Ondansetron: On
+        Oral Glucose: On
+        Other - Medication: On
+        Oxycodone: Off
+        Oxymetazoline: Off
+        Oxytocin: Off
+        Packed Red Blood Cells (PRBC): Off
+        Pancuronium: Off
+        Paroxetine: Off
+        Pavulon: Off
+        Penicillin G: Off
+        Penicillin V: Off
+        Pepcid: Off
+        Percodan: Off
+        Phenergan: Off
+        Phenobarbital: Off
+        Phenylephrine: Off
+        Phenylephrine Infusion: Off
+        Phenytoin: Off
+        Physostigmine: Off
+        Pitocin: Off
+        Platelets: Off
+        Plavix: Off
+        Potassium: Off
+        Potassium Chloride: Off
+        Potassium Chloride Infusion: Off
+        Potassium Iodide: Off
+        Potassium Phosphate: Off
+        Pradaxa: Off
+        Pralidoxime: Off
+        Precedex Infusion: Off
+        Prednisolone: Off
+        Prednisone: Off
+        Procainamide: Off
+        Procardia: Off
+        Promethazine: Off
+        Proparacaine: Off
+        Propofol: Off
+        Propranolol: Off
+        Prothrombin: Off
+        Prothrombin Complex Concentrate: Off
+        Protonix Infusion: Off
+        Protopam: Off
+        Pulmicort: Off
+        Push Dose Epi: Off
+        Pyridium: Off
+        Quelicin: Off
+        Quetiapine: Off
+        Racemic Epinephrine: On
+        Radiogardase: Off
+        Ramipril: Off
+        Ranitidine: Off
+        REGEN-COV (Casirivimab, Imdevimab): Off
+        Regitine: Off
+        Reglan: Off
+        Restasis: Off
+        Retavase: Off
+        Risperidone: Off
+        Rocephin: Off
+        Rocuronium: Off
+        Romazicon: Off
+        Saline: Off
+        SNOCAT Study: Off
+        Sodium Bicarb 4.2%: Off
+        Sodium Bicarb 8.4%: On
+        Sodium Bicarbonate 7.5%: Off
+        Sodium Nitrate: Off
+        Sodium Nitrite: Off
+        Sodium Phosphate: Off
+        Sodium Thiosulfate: Off
+        Solu-Cortef: Off
+        Solu-Medrol: Off
+        Stadol: Off
+        Sterile Water: Off
+        Study Drug: Off
+        Study Medication 1: Off
+        Study Medication 2: Off
+        Study Medication 3: Off
+        Sublimaze: Off
+        Suboxone: Off
+        Succinylcholine: Off
+        Sulfamethoxazole: Off
+        Surfactant: Off
+        Sweet-Ease: Off
+        t-PA: Off
+        Tenecteplase: Off
+        Terbutaline: Off
+        Tetracaine: On
+        Thiamine: Off
+        Tiagabine: Off
+        Toradol: Off
+        Tramadol: Off
+        Tranexamic Acid (TXA): Off
+        Trazodone: Off
+        Triaminic: Off
+        Tridil Premix: Off
+        Triple Dye: Off
+        Tylenol: Off
+        Valium: Off
+        Vancomycin: Off
+        Vasopressin: Off
+        Vasotec: Off
+        Vecuronium: Off
+        Veletri: Off
+        Verapamil: Off
+        Versed: Off
+        Versed Drip: Off
+        Vitamin K: Off
+        Whole Blood: Off
+        Xarelto: Off
+        Xopenex: Off
+        Zemuron: Off
+        Zinc DTPA: Off
+        Zithromax: Off
+        Zofran: Off
+        Zosyn: Off
+        Zyprexa: Off
+
+    IV Therapy:
+        Blood Draw: Off
+        Central Line: Off
+        Intraosseous: On
+        IV Bolus: On
+        IV Monitoring: On
+        IV Therapy: On
+
+    Other:
+        12-Lead ECG: On
+        15-Lead ECG: On
+        3-Lead ECG: On
+        Anti-Coagulant Alert: Off
+        Bandaging: On
+        Bleeding Control: On
+        Blood Culture: Off
+        BLS Assessment: Off
+        Burn Care: On
+        Burn Sheet: On
+        C-Spine Clearance: Off
+        Cardiac Alert: On
+        Chest Seal: On
+        Consult: On
+        Consult Attempted but not made: Off
+        Consult/Order Denied: Off
+        Consult/Order Requested: Off
+        Contact Not Attempted: Off
+        Contact Not Required: Off
+        Contact Report Only: Off
+        Cooling: On
+        CT Scan: Off
+        ECG Transmitted: Off
+        Extrication: On
+        General Comments: On
+        Helmet Removal: Off
+        Hemostatic Agent: On
+        Ice Pack: On
+        Infectious Patient Alert: On
+        Involuntary Psychiatric Hold: Off
+        Irrigation: On
+        Joint Reduction: Off
+        Leave Behind Narcan Kit: Off
+        MAST/PASG: Off
+        Nasal Clamp: Off
+        OB Delivery: On
+        Pain Management: Off
+        Patella Reduction: On
+        Patient Monitoring: Off
+        Patient Positioning: Off
+        Patient Restraint: On
+        Peace and Health Officer Hold: Off
+        Pediatric Continuous Assessment: Off
+        Pelvic Sling: On
+        Reeves Stretcher: Off
+        Scoop Stretcher: Off
+        Sepsis Notification: On
+        Shoulder Reduction: Off
+        Sling/Swathe: Off
+        Specimen Swab (Nasal): Off
+        Specimen Swab (Throat): Off
+        Spinal Motion Restriction: On
+        Spinal Motion Restriction Removal: Off
+        Spit Sock: Off
+        Splint Fx/Disloc.: On
+        Stairchair: Off
+        STEMI Alert: On
+        Stretcher: Off
+        Stroke Alert: On
+        Surgical Mask on Patient: On
+        Taser Barb Removal: Off
+        Telemedicine Consultation: Off
+        Time of Death: On
+        Total Parenteral Nutrition: Off
+        Tourniquet: On
+        Traction Splint: On
+        Transport Alert: On
+        Trauma Alert: On
+        Trauma Notification - Full: Off
+        Trauma Notification - Limited: Off
+        Trendelenburg: Off
+        Ultrasound: Off
+        Warming: On
+        Wound Care: Off
+        Wound Dressing: Off
