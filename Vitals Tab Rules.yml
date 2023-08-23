@@ -1,0 +1,33 @@
+---
+# ESO Rules for Wantagh-Levittown VAC
+
+# This file contains the rules for Wantagh-Levittown VAC's EHR Rules for
+# ESO. I will be using it to track the rules changes I make via git and
+# contain a rule set that can be shared with other NYS agencies.
+
+Patient Tab:
+    Configurable Fields:
+        Pulse Rate Method: On
+    Configurable Lists:
+        # Not Yet Added
+    Configurable Validation:
+        Blood Pressure Method Required: On
+        Blood Pressure Required: On
+        ECG Rhythm Required: On
+        ETCO2 Required for Advanced Airway: On
+        GCS Qualifier Required: On
+        Glucose Required: Off
+        Method of ECG Interpretation Required: On
+        Pain Scale Required: Off
+        Pulse Method Required: On
+        Pulse Ox Required: On
+        Pulse Required: On
+        Require Two Vitals Sets: On
+        Respiration Quality Required: On
+        Respiration Rate Required: On
+        Revised Trauma Score (RTS) Required: Off
+        Temperature Method Required: On
+        Temperature Required: Off
+        Vital Sign Date/Time > At Patient Date/Time: On
+        Vital Sign Require One AVPU: On
+        Vital Sign Require One GCS: On
