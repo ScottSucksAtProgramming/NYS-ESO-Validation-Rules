@@ -1,0 +1,42 @@
+---
+# ESO Rules for Wantagh-Levittown VAC
+
+# This file contains the rules for Wantagh-Levittown VAC's EHR Rules for ESO. I will be using it to track the rules changes I make via git and contain a rule set that can be shared with other NYS agencies.
+
+Patient Tab:
+    Configurable Fields:
+        Current Medication Dosage Unit: On
+        Current Medication Dose: On
+        Current Medication Frequency: On
+        Current Medication Route: On
+        Immunizations: Off
+        Is Patient a Veteran: Off
+        Last Oral Intake: Off
+        Medical History Obtained From: Off
+        Patient Address - Country: Off
+        Patient Resides in Service Area: Off
+        Pedi Color Coding: Off
+        Personal Email: Off
+        Presence of Emergency Form: Off
+        Resident Status: Off
+        Temporary Residence Type: Off
+        Work Email: Off
+    Configurable Lists:
+        # Not Yet Added
+    Configurable Validation:
+        Patient Address Required: On
+        Patient Allergies Required: On
+        Patient Current Medications Required: On
+        Patient Info Demographics Weight(lbs): On
+        Patient Info Demographics Ethnicity: On
+        Patient Info Demographics Gender: On
+        Patient Info Demographics Race: On
+        Patient Info Personal Items: Off
+        Patient Medical History Required: On
+        Patient Middle Name Required: Off
+        Patient Phone Number Required: On
+        Patient Resides in Service Area Required: Off
+        Pedi Color Code Required: Off
+        Presence of Emergency Form Required: Off
+        Require Advance Directive: On
+        Resident Status: Off
