@@ -9,7 +9,15 @@
   },
   "hide-files.files": [],
   "cSpell.words": [
+    "Interfacility",
+    "NFIRS",
     "PSAP",
     "STEMI"
-  ]
+  ],
+  "yaml.format.printWidth": 200,
+  "editor.rulers": [
+    200
+  ],
+  "editor.wordWrapColumn": 160,
+  "prettier.printWidth": 120
 }

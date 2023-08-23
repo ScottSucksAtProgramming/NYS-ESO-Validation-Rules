@@ -68,6 +68,82 @@ Incident Tab:
         Type of Suspected Blood/Body Fluid Exposure, Injury, or Death: Off
         Unit Capability: Off
         Unit's Level of Care: On
+    Configurable Lists:
+        # Not Yet Added.
+    Configurable Validation:
+        Alabama Stroke System Entry Required: Off
+        Arkansas STEMI Registry Number Format: Off
+        Arkansas Stroke Registry Number Format: Off
+        Arkansas Trauma Registry Number Format: Off
+        Custom - Arrival at Landing Area Date/Time: Off
+        Custom - At Patient Time > On Scene: On
+        Custom - Dispatch Acknowledged Date/Time: Off
+        Custom - Dispatch Notified Date/Time: Off
+        Custom - EMD Card Number: Off
+        Custom - EMD Performed: On
+        Custom - In District (Unit Back at Home) Date/Time: On
+        Custom - Level of Service: On
+        Custom - Personal Protective Equipment Used (PPE): Off
+        Custom - PSAP Call Date/Time: On
+        Custom - Transfer of EMS Care (Prior to Transport) Date/Time: On
+        Custom - Transfer of Patient Care Date/Time: On
+        Delays - Dispatch Delays Required: Off
+        Delays - Response Delays Required: On
+        Delays - Scene Delay Required: On
+        Delays - Transport Delays Required: On
+        Delays - Turn Around Delays Required: On
+        Depart Scene Time for non-cancelled dispositions: On
+        Department: On
+        Dispatch Priority: Off
+        Disposition Instructions: Off
+        EMS Transport Method: On
+        Estimated Initial Responder on Scene: Off
+        First EMS Unit on Scene: Off
+        Georgia BLS Transport Authorized by COVID-19 Emergency Rule Data Quality: Off
+        Georgia BLS Transport Authorized by COVID-19 Emergency Rule Required: Off
+        Hospital Designation: On
+        Incident Additional Factors - Additional Agencies Requires an Entry: Off
+        Incident Additional Factors - Delays Requires an Entry: Off
+        Incident Call Times At Patient: On
+        Incident Custom Hospital Chart Number: Off
+        Incident Custom Patient Number: Off
+        Incident Custom Run Number: Off
+        Incident Disposition Requested By: Off
+        Incident Disposition Zone: Off
+        Incident EMD Complaint: On
+        Incident GPS Location: Off
+        Incident Latitude/Longitude Lock for Scene Address: Off
+        Incident Location Shift: On
+        Incident Location Vehicle: Off
+        Incident Location Zone: Off
+        Incident Mileage - Loaded Miles: On
+        Incident Mileage - Odometer Destination: On
+        Incident Mileage - Odometer End: Off
+        Incident Mileage - Odometer Scene: On
+        Incident Mileage - Odometer Start: Off
+        Incident Responding From: Off
+        Incident Triage Priority: Off
+        Interfacility EMD Complaint and Run Type Must Match: Off
+        Intersection Navigation: Off
+        Lights & Sirens Use: On
+        NFIRS Fields: Off
+        Odometer Readings <> 0.0: Off
+        Personnel Injury, Exposure or Death Required: Off
+        Responder Exposure for Overdose Syndromic Surveillance Required: Off
+        Response Mode Speed: Off
+        Scheduled Response: Off
+        Standby Purpose Required: Off
+        State Wristband Number Required for Patient Transports: Off
+        Station Required: Off
+        The Medical Control Authority (MCA) field is required for all patient care records: Off
+        Transport Mode: On
+        Transport Mode Intersection Navigation: Off
+        Transport Mode Lights & Sirens Use: On
+        Transport Mode Speed: Off
+        Trauma Registry Required For Injuries: Off
+        Unit Capability Required: On
+        Unit's Level of Care: On
+        Was Alternative Disposition Offered Required: Off
 
 ---
 
