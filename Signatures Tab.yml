@@ -1,0 +1,51 @@
+---
+# ESO Rules for Wantagh-Levittown VAC
+
+# This file contains the rules for Wantagh-Levittown VAC's EHR Rules for
+# ESO. I will be using it to track the rules changes I make via git and
+# contain a rule set that can be shared with other NYS agencies.
+
+Signatures Tab:
+    Configurable Fields:
+        Refusal - Capacity Assessment - Decision-Making: On
+        Refusal - Capacity Assessment - Legal: On
+        Refusal - Capacity Assessment - Medical: On
+        Refusal - Medical Command - Comments: On
+        Refusal - Medical Command - Contact Method: On
+        Refusal - Medical Command - Contact Name: On
+        Refusal - Medical Command - Orders: On
+        Refusal - Medical Command - Reason Not Contacted: On
+        Refusal - Medical Command - Time Contacted: On
+        Refusal - Patient Notifications - Additional Notifications: On
+        Refusal - Patient Refusals - Patient Refusal Comments: On
+
+    Configurable Lists:
+        # Not Yet Implemented
+
+    Configurable Validation:
+        Lead Provider Signature: On
+        Paperwork Acknowledged: Off
+        Physician Certification Statement Required for Medical Transport: On
+        Physician Certification Statement Required for Non-Emergency Interfacility Transfer: On
+        Provider Signature: Off
+        Receiving Physician/Nurse Signature: On
+        Refusal Form - Capacity Assessment: On
+        Refusal Form - Medical Command Contact: On
+        Refusal Form - Patient Notifications: On
+        Refusal Form - Patient or Witness Signature: On
+        Refusal Form - Patient Refusal: On
+        Require Billing Authorization Treatment in Place: Off
+        Signature Billing Require an Entry: On
+        Witness to Waste: Off
+
+    Billing Authorization:
+        # Not Yet Implemented
+
+    Custom Signature Forms:
+        # Not Yet Implemented
+
+    Patient Refusal Form:
+        # Not Yet Implemented
+
+    Physician Certification Statement:
+        # Not Yet Implemented
