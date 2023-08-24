@@ -1,0 +1,134 @@
+---
+# ESO Rules for Wantagh-Levittown VAC
+
+# This file contains the rules for Wantagh-Levittown VAC's EHR Rules for
+# ESO. I will be using it to track the rules changes I make via git and
+# contain a rule set that can be shared with other NYS agencies.
+
+Forms Tab:
+    Configurable Fields:
+        2021 Trauma Triage Guidelines - Trauma Level: On
+        2021 Trauma Triage Guidelines - Trauma Referral Center Notified: Off
+        ACS - Time Thrombolytic Checklist Performed: Off
+        Advanced Airway -Time Intubation Abandoned: On
+        BEFAST - Stroke Symptoms Resolved: Off
+        C-STAT - Stroke Symptoms Resolved: Off
+        CDC 2011 Trauma Form - Trauma Referral Center Notified: Off
+        CPR - Type of CPR: On
+        CSS - Last Known Well: On
+        CSS - Stroke Symptoms Resolved: On
+        CSS - Time Performed: On
+        EMSA - Stroke Symptoms Resolved: Off
+        FAST - Last Known Well: Off
+        FAST - Stroke Symptoms Resolved: Off
+        FAST-ED - Stroke Symptoms Resolved: Off
+        LAMS - Last Known Well: On
+        LAMS - Stroke Symptoms Resolved: On
+        LAPSS - Stroke Symptoms Resolved: Off
+        LAPSS - Time Performed: Off
+        MEND - Last Known Well: Off
+        MEND - Stroke Symptoms Resolved: Off
+        MEND - Time Performed: Off
+        OB - APGAR Five Minutes Time Performed: On
+        OB - APGAR One Minute Time Performed: On
+        RACE - Last Known Well: Off
+        RACE - Stroke Symptoms Resolved: Off
+        sLAMS - Stroke Symptoms Resolved: Off
+        Trauma Criteria Form - Trauma Referral Center Notified: Off
+        VAN - Last Known Well: On
+        VAN - Stroke Symptoms Resolved: On
+
+    Configurable Lists:
+        # Not Yet Implemented
+
+    Configurable Validation:
+        AED Applied By Required: On
+        Buprenorphine Requires COWS - Clinical Opiate Withdrawal Scale: Off
+        COVID-19 Screening Required: Off
+        CSS - Stroke Symptoms Resolved: Off
+        ECG Rhythm at Destination Required: Off
+        EMSA Stroke Scale All Fields Required: Off
+        End of Cardiac Event Required: Off
+        Injury Required when CDC 2011 Trauma Form indicates an injury: On
+        Injury Required when MVC Form indicates an injury: On
+        Injury Required when Oklahoma Trauma Triage indicates an injury: Off
+        Injury Required when Trauma Form indicates an injury: On
+        LAPSS - Stroke Symptoms Resolved: Off
+        Last Known Well required on stroke forms: Off
+        MEND - Stroke Symptoms Resolved: Off
+        MIH Referral Required: Off
+        MVC Damage Location Required: On
+        MVC Ejection Path Required: Off
+        Outbreak Screening Required: Off
+        Overdose Syndromic Surveillance Required: Off
+        Patient Travel Form Required: Off
+        Reason Resuscitation Discontinued Required: On
+        Require Defibrillated By: On
+        Require Pulse Present at ER: Off
+        Require Reason Trauma Alert Not Activated on 2021 Trauma Triage Form: Off
+        Require Reason Trauma Alert Not Activated on CDC 2011 Trauma Criteria Form: Off
+        Require Reason Trauma Alert Not Activated on Trauma Criteria Form: On
+        Require Suspected Reasons for Failed Airway Procedure: Off
+        Require Trauma Activation for 2021 Trauma Triage Guidelines: Off
+        Require Trauma Activation for Injury: On
+        Resuscitation Discontinued Time Required: On
+        Specialty Patient Require 2011 CDC Trauma Criteria: On
+        Specialty Patient Require ACS: On
+        Specialty Patient Require Advanced Airway: Off
+        Specialty Patient Require Aftercare Instructions: Off
+        Specialty Patient Require Cincinnati: On
+        Specialty Patient Require CPR: On
+        Specialty Patient Require FAST: Off
+        Specialty Patient Require LAMS if positive FAST: Off
+        Specialty Patient Require MVC: On
+        Specialty Patient Require Obstetrical: On
+        Specialty Patient Require Psychiatric (SAD): Off
+        Specialty Patient Require RACE if positive Cincinnati: Off
+        Specialty Patient Require Spinal Immobilization: On
+        Specialty Patient Require Trauma Criteria: Off
+        Specialty Patient Require VAN: Off
+        Specialty Patient Requires Stroke Scale: On
+        Suboxone Requires COWS - Clinical Opiate Withdrawal Scale: Off
+        Trauma Activation Date/Time Required: On
+        Trauma Level Required For Injuries: On
+        Trauma Referral Center Destination Recommendation Required: Off
+        Trauma Referral Center Notified Required For Injuries: Off
+        Trauma Requires 2021 Trauma Triage Guidelines: Off
+
+    Forms:
+        2021 Trauma Triage Guidelines: Off
+        Acute Coronary Syndromes: On
+        Advanced Airway: On
+        Aftercare Instructions: On
+        BEFAST Stroke Scale: Off
+        Burns: On
+        C-STAT Stroke Scale: Off
+        CDC 2011 Trauma Criteria: On
+        Cincinnati Stroke Scale: On
+        COWS - Clinical Opiate Withdrawal Scale: Off
+        CPR: On
+        Ebola Screening: On
+        Emergency Medical Stroke Assessment (EMSA): Off
+        FAST Stroke Scale: Off
+        FAST-ED Stroke Scale: Off
+        Florida Stroke Assessment: Off
+        Florida Trauma Scorecard: Off
+        Influenza Screening: On
+        LA Prehospital Stroke Scale: Off
+        LAMS Stroke Scale: On
+        MEND Stroke Exam: Off
+        Mobile Integrated Healthcare - Referral: Off
+        Mobile Integrated Healthcare - Visit: Off
+        Motor Vehicle Collision: On
+        Obstetrical: On
+        Oklahoma Trauma Triage: Off
+        Outbreak Screening: On
+        Patient Travel: On
+        Psychiatric Ax (SAD): On
+        RACE Stroke Scale - Rapid Arterial Occlusion Evaluation: Off
+        Sepsis Screening: On
+        sLAMS Stroke Scale: On
+        Spinal Immobilization: On
+        Syndromic Surveillance - Overdose: On
+        Trauma Criteria: Off
+        VAN Stroke Assessment: On
