@@ -1,0 +1,41 @@
+---
+# ESO Rules for Wantagh-Levittown VAC
+
+# This file contains the rules for Wantagh-Levittown VAC's EHR Rules for
+# ESO. I will be using it to track the rules changes I make via git and
+# contain a rule set that can be shared with other NYS agencies.
+
+Billing Tab:
+    Configurable Fields:
+        Billing Number: Off
+        CMS Service Level: On
+        Condition Code Modifier: Off
+        Condition Code Number: Off
+        Destination Medical Record Number: Off
+        ICD-9 Code for the Condition Code Number: Off
+        Interfacility Transfer or Medical Transport Reason: On
+        Mileage to Closest Hospital: Off
+        OSHA PPE Used: Off
+        Patient’s Occupation: Off
+        Patient’s Occupational Industry: Off
+        Prior Authorization Code Payer: Off
+        Specialty Care Transport Provider: Off
+        Transport Assessment: Off
+
+    Configurable Lists:
+        # Not Yet Implemented
+
+    Configurable Validation:
+        Billing Dispatch Nature: Off
+        Billing Must Enter Consumable on Patient Treated: Off
+        Billing Must Enter Consumable on Transport: Off
+        Billing Must Select Medical Necessity: Off
+        Billing Must Select UTO, NI or Enter Data: On
+        Billing Response Urgency: Off
+        Custom - CMS Service Level: On
+        Custom - Condition Code Modifier: Off
+        Custom - Condition Code Number: Off
+        Custom - ICD-9 Code: Off
+        Interfacility Transfer or Medical Transport Reason Required: Off
+        Receiving Physician Required: Off
+        Work Related Required: Off
