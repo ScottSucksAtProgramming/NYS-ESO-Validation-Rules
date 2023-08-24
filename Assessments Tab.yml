@@ -1,0 +1,15 @@
+---
+# ESO Rules for Wantagh-Levittown VAC
+
+# This file contains the rules for Wantagh-Levittown VAC's EHR Rules for
+# ESO. I will be using it to track the rules changes I make via git and
+# contain a rule set that can be shared with other NYS agencies.
+
+Assessments Tab:
+    Configurable Validation:
+        Assessment Date/Time: On
+        Assessment Date/Time > At Patient Date/Time: On
+        Assessment Ongoing Required: Off
+        Assessment Require an Entry: On
+        Require Entry in All Assessment Categories: Off
+        Require Neurological Assessment for Stroke Impressions: On
