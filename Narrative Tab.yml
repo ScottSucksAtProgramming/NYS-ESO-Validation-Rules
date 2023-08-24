@@ -1,0 +1,58 @@
+---
+# ESO Rules for Wantagh-Levittown VAC
+
+# This file contains the rules for Wantagh-Levittown VAC's EHR Rules for
+# ESO. I will be using it to track the rules changes I make via git and
+# contain a rule set that can be shared with other NYS agencies.
+
+Narrative Tab:
+    Configurable Fields:
+        Chief Complaint Anatomic Location: On
+        Chief Complaint Organ System: On
+        Condition of Patient at Destination: Off
+        Do you suspect an acute (new onset) stroke/CVA occurred?: Off
+        Duration of Chief Complaint: On
+        Duration of Secondary Complaint: On
+        Final Patient Acuity: On
+        Height of Fall: On
+        How Patient Was Moved to Ambulance: On
+        How Patient Was Transported From Ambulance: On
+        Initial Patient Acuity: On
+        Last Known Well: On
+        Patient Activity: On
+        Patient's Level of Distress: On
+        Position of Patient During Transport: On
+        Protocols Used and Age Collection: Off
+        Time Units of Duration of Chief Complaint: On
+        Time Units of Duration of Secondary Complaint: On
+
+    Configurable Lists:
+        # Not Yet Implemented
+
+    Configurable Validation:
+        Custom - Chief Complaint Anatomic Location: On
+        Custom - Chief Complaint Organ System: On
+        Custom - Condition of Patient at Destination: Off
+        Custom - Duration of Chief Complaint: On
+        Custom - Duration of Secondary Complaint: Off
+        Custom - How Patient was moved to Ambulance: On
+        Custom - How Patient was Transported From Ambulance: Off
+        Custom - Patient's Level of Distress: On
+        Custom - Position of Patient During Transport: On
+        Custom - Protocol Used: Off
+        Final Patient Acuity: On
+        Initial Patient Acuity: On
+        Last Known Well Required: Off
+        Narrative Alcohol Indicators: On
+        Narrative Always Required: On
+        Narrative Barriers of Care: On
+        Narrative Chief Complaint: On
+        Narrative Height of Fall: On
+        Narrative Medical Trauma: On
+        Narrative Must Be 25 Characters on Every Call: On
+        Narrative Must Be 30 Characters When Patient Contact: Off
+        Narrative Patient Injured: On
+        Pregnancy Required For Female Patients: On
+        Protocol Age Category Required: Off
+        Require 2 Signs/Symptoms: Off
+        Secondary Impression Required: Off
